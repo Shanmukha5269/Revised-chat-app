@@ -1,0 +1,62 @@
+h1{
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.container{
+    /* height: 80vh;
+    width: 80vh;
+    margin-left: 452px; */
+    border: 2px solid black;
+    max-width: 900px;      /*by this we can center the box*/
+    margin: auto;
+    height: 60vh;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    overflow-y: auto;
+}
+
+.message{
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(222, 215, 215);
+    margin: 26px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.left{
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#sendcontainer{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+}
+
+#messageinp{
+    width: 60%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.btn{
+    height: 30px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+}
