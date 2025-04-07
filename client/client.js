@@ -1,5 +1,7 @@
-
-const socket = io('http://localhost:8000');
+// Use a dynamic URL for the backend based on the environment
+const socket = io(window.location.hostname === 'revised-chat-app.vercel.app' 
+    ? 'https://revised-chat-app.vercel.app'  // Production URL for deployed app
+    : 'http://localhost:8000');  // Local development URL
 
 // appends event to the container
 const append = (message, position) => {
