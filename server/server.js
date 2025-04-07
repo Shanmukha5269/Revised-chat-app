@@ -36,7 +36,8 @@ const server = http.createServer(app);
 // Initialize Socket.IO with CORS options
 const io = socketIo(server, {
     cors: {
-        origin: 'http://127.0.0.1:5500', // Allow this origin
+       // origin: 'http://127.0.0.1:5500', // Allow this origin
+        origin: 'https://revised-chat-app.vercel.app/', // allowed for deployed url
         methods: ['GET', 'POST'], // Specify allowed methods
         credentials: true // Allow credentials (optional)
     }
